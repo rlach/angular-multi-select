@@ -1,0 +1,46 @@
+{
+    "browser": true,
+    "esnext": true,
+    "globalstrict": true,
+    "quotmark": true,
+    "undef": true,
+    "unused": true,
+    "globalstrict": true,
+    "globals": {
+        /* native JS */
+        "FileReader": false,
+        "Uint8Array": false,
+        "FormData": false,
+        "setTimeout": false,
+        "Blob": false,
+        "console": false,
+
+        /* angular */
+        "angular": false,
+
+        /* additional libraries */
+        "_": false,
+        "SockJS": false,
+        "Stomp": false,
+        "jQuery": false,
+        "$": false,
+        "moment": false,
+        "zE": false,
+        "Flow": false,
+
+        /* jasmine */
+        "jasmine": false,
+        "require": false,
+        "__dirname": false,
+        "describe": false,
+        "module": false,
+        "beforeEach": false,
+        "afterEach": false,
+        "inject": false,
+        "it": false,
+        "expect": false,
+        "spyOn": false,
+        "xdescribe": false
+
+    }
+}

@@ -127,8 +127,13 @@
     float: right;
 }
 
-.multiSelect .helperButton:not( .reset ) {
+.multiSelect .helperButton:not( .reset ):not( .ok ) {
     margin-right: 4px;    
+}
+
+.multiSelect .helperButton.ok{
+    float: right;
+    margin-right: 10px;
 }
 
 /* clear button */
